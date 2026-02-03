@@ -1,0 +1,545 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rohitphotographer Photo Gallery Category Flat Bootstrap Responsive Website Template | Booking : W3layouts</title>
+	
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Rohitphotographer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+		
+	<!-- Stylesheet -->
+	<link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+
+	<!-- css files -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- css files -->
+
+	<!--fonts-->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+	<!--//fonts-->
+	<style>
+		.hidden {
+		  display: none;
+		}
+		.product_view .modal-dialog{
+			
+	max-width: 800px;
+	width: 100%;
+    height: 100%;
+		}
+		.modal-content{
+			align-items: center;
+		}
+		.close {
+    position: absolute;
+    right: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity = 20);
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+		/* .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+} */
+	  </style>
+
+</head>
+<body>
+
+<!-- banner -->
+<div id="home" class="w3ls-banner w3ls-banner-inner"> 
+	<!-- header -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary" style="padding: 3em 1em;">
+
+		
+				<!-- <a class="navbar-brand text-white" href="index.html"><i class="fab mr-2 fa-tripadvisor"></i>Rohitphotographer</a> -->
+				<a class="navbar-brand text-white" href="index.html"><img class="fab logo" src="images/logo.png"></a>
+			
+			<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-lg-auto text-center">
+					<li class="nav-item mr-1">
+						<a class="nav-link" href="index.html">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item  mr-1">
+						<a class="nav-link" href="about.html">about</a>
+					</li>
+					<li class="nav-item mr-1">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<!-- <li class="nav-item dropdown mr-1">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="services.html">Services</a>
+							<a class="dropdown-item" href="gallery.html">Gallery</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="error.html">404</a>
+						</div>
+					</li> -->
+					<li class="nav-item mr-1">
+						<a class="nav-link" href="services.html">Services</a>
+					</li>
+					<li class="nav-item active mr-1">
+						<a class="nav-link" href="contact.html">contact</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+</header>
+	<!-- //header -->
+</div>
+<!-- //banner -->
+
+<!-- breadcrumbs -->
+<nav aria-label="breadcrumb">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a href="index.html">Home</a>
+		</li>
+		<li class="breadcrumb-item active" aria-current="page">Book shoot</li>
+	</ol>
+</nav>
+<!-- //breadcrumbs -->
+
+<!-- Booking -->
+<section class="bookingform py-5">
+	<div class="container py-md-5 py-sm-3">
+		<h3 class="heading text-capitalize mb-sm-5 mb-4 text-center">Booking form</h3>
+		<div class="row">
+			<div class="col-lg-8 book-appointment p-0">
+			<div class="layer p-sm-5 py-5 px-4">
+				<h2>Photoshoot Details</h2>
+				<div class="book-agileinfo-form">
+					<form id="booking" action="#" onsubmit="submitForm(event)">
+						<div class="row main-agile-sectns">
+							<div class="col-md-6 agileits-btm-spc form-text1">
+								<label class="mb-2">Your Name</label>
+								<input id="name" type="text" name="Name" placeholder="ex. john thomson">
+							</div>
+							<div class="col-md-6 agileits-btm-spc form-text2">
+								<label class="mb-2">Phone Number</label>
+								<input id="phone" type="text" name="Phone_no" placeholder="ex. xxxxxxxxxx">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 agileits-btm-spc form-text1">
+								<label class="mb-2">Your Email</label>
+								<input id="email" type="email" name="email" placeholder="ex. example@mail.com">
+							</div>
+							<div class="col-md-6 form-text2">
+								<div class="agileits-btm-spc">
+								<label class="mb-2">Type Of Shoot</label>
+									<select id="shoot" name="shoot" class="frm-field required sect">
+										<option value="Type Of Shoot">Type Of Shoot</option>
+										<option value="Pre Wedding Shoot">Pre Wedding Shoot</option>
+										<option value="Whole Wedding Shoot">Whole Wedding Shoot</option>
+										<option value="Whole Wedding Shoot">Videography</option>
+										<option value="Whole Wedding Shoot">Film Shoots</option>
+										<option value="Other">Other</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row main-agile-sectns">
+							<div id="field1" class="col-md-6 agileits-btm-spc form-text1 hidden">
+								<label class="mb-2">Other</label>
+								<input id="other" type="text" name="other" placeholder="Other Photoshoot details">
+							</div>
+							<div id="field2" class="col-md-6 agileits-btm-spc form-text1 hidden">
+								<label class="mb-2">Price:</label><br/>
+								<label id="price1" name="price1" class="hidden mb-2">15000 Rs.</label>
+							</div>
+							<div id="field3" class="col-md-6 agileits-btm-spc form-text1 hidden">
+								<label class="mb-2">Price:</label><br/>
+								<label id="price2" name="price2" class="hidden mb-2">30000 Rs.</label>
+							</div>
+							<div id="field4" class="col-md-6 agileits-btm-spc form-text1 hidden">
+								<label class="mb-2">Price:</label><br/>
+								<label id="price3" name="price3" class="hidden mb-2">33000 Rs.</label>
+							</div>
+							<div id="field5" class="col-md-6 agileits-btm-spc form-text1 hidden">
+								<label class="mb-2">Price:</label><br/>
+								<label id="price4" name="price4" class="hidden mb-2">40000 Rs.</label>
+							</div>
+							<div id="field6" class="col-md-6 agileits-btm-spc form-text1 hidden">
+								<label class="mb-2">Price:</label><br/>
+								<label id="price5" name="price5" class="hidden mb-2">As per event</label>
+							</div>
+						</div>
+						<div class="row main-agile-sectns">
+							<div class="col-md-6 agileits-btm-spc form-text1">
+								<label class="mb-2">Address</label>
+								<input id="address" type="text" name="Address" placeholder=" Enter Your Address">
+							</div>
+							<div class="col-md-6 agileits-btm-spc form-text2">
+								<label class="mb-2">Pin Code</label>
+								<input id="pin" type="text" name="pin" placeholder="ex. xxxxxx">
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="row main-agile-sectns">
+							<div class="col-md-6 agileits-btm-spc form-text1">
+								<label class="mb-2">Date Of Shoot</label>
+								<input id="datepicker" name="date" type="text" placeholder="Select Date" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+								>
+							</div>							
+							<div class="col-md-6 form-text2 agileits-btm-spc">
+								<label class="mb-2">No.of Days</label>
+								<select id="days" name="days" class="frm-field required sect">
+									<option value="">Select Days</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>         
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</div>
+						</div>
+						<div class="main-agile-sectns ">
+							<div class="agileits-btm-spc form-text2 p-0">
+								<label class="mb-2">Additional Comments </label>
+								<textarea id="additional" name="additional" placeholder="Enter Your Message Here"></textarea>
+							</div>
+						</div>
+						<input type="submit" value="Book Your Shoot" data-toggle="modal" data-target="#product_view">
+						<!-- <input type="submit" value="Book Your Shoot"> -->
+					</form>
+				</div>
+			</div>
+			</div>
+			<div class="col-lg-4 mt-lg-0 mt-3">
+				<img src="images/g7.jpg" alt="" class="img-fluid" />
+				<img src="images/g9.jpg" alt="" class="mt-3 img-fluid" />
+				<img src="images/g8.jpg" alt="" class="mt-3 img-fluid" />
+			</div>
+		</div>
+	</div>
+</section>	
+<!-- //Booking -->
+<!-- Modal-->
+<div class="modal fade product_view" id="product_view">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Photoshoot Details</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+					<div id="result"></div>
+				</div>
+				<input id="book" type="submit" value="Book Your Shoot">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<footer class="py-5">
+	<div class="container py-md-3">
+		<div class="row footer-grids">
+			<div class="col-lg-6 footer-grid-left mb-lg-0 mb-4">
+				<h2><a href="index.html"><img class="fab logo" src="images/logo.png"></i>Rohitphotographer</a></h2>
+				<p class="mt-3">I Record events and tells stories using images. I am specialize in a type of photography.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 footer-grid-middle">
+				<h4>About Rohitphotographer</h4>
+				<p>Capture and edit visual content for multiple platforms.<br/>
+					Perform retouching and image adjustments after shoots. </p>
+			</div>
+			<div class="col-lg-4 col-md-6 subscribe-grid mt-md-0 mt-4">
+				<!--<h4> Connect & subscribe </h4>-->
+				<!--<div class="social mb-4 text-center">
+					<ul class="d-flex justify-content-start">
+						<li class="mr-2"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+						<li class="mx-sm-2 mr-2"><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li class="mx-sm-2 mr-2"><a href="#"><span class="fas fa-rss"></span></a></li>
+						<li class="mx-sm-2 mr-2"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+						<li class="mx-sm-2 mr-2"><a href="#"><span class="fab fa-google-plus"></span></a></li>
+					</ul>
+				</div>
+				<form action="#" method="post">
+					<input class="form-control" type="email" placeholder="Subscribe" name="Subscribe">
+					<button class="btn1">
+						<i class="far fa-paper-plane"></i>
+					</button>
+				</form> -->
+				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-282a1273-0110-4cc7-9e55-3c95bb7d8f78"></div>
+			</div>
+		</div>
+		<div class="copyright mt-5">
+			<p class="text-center">© 2023 Rohitphotographer. All Rights Reserved | Design by <a href="#"> Rohan waghmare </a></p>
+		</div>
+	</div>
+</footer>
+<!-- //footer -->
+
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<script>
+		document.getElementById("shoot").onchange = function() {
+		  var selectedOption = this.value;
+		  var field1 = document.getElementById("field1");
+		  var field2 = document.getElementById("field2");
+		  var field3 = document.getElementById("field3");
+		  var field4 = document.getElementById("field4");
+		  var field5 = document.getElementById("field5");
+		  var field6 = document.getElementById("field6");
+		
+		  // Hide all fields first
+		  field1.classList.add("hidden");
+		  field2.classList.add("hidden");
+		  field3.classList.add("hidden");
+		  field4.classList.add("hidden");
+		  field5.classList.add("hidden");
+		  field6.classList.add("hidden");
+		
+		  // Show the selected field
+		  if (selectedOption === "other") {
+			field1.classList.remove("hidden");
+			field6.classList.remove("hidden");
+		  } else if (selectedOption === "Pre Wedding Shoot"){
+			field2.classList.remove("hidden");
+		  }
+		  else if (selectedOption === "Whole Wedding Shoot"){
+			field3.classList.remove("hidden");
+		  }
+		  else if (selectedOption === "Videography"){
+			field4.classList.remove("hidden");
+		  }
+		  else if (selectedOption === "Film Shoots"){
+			field5.classList.remove("hidden");
+		  }
+		};
+		function submitForm(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("email").value;
+	var selectElement = document.getElementById("shoot");
+
+      // Get the selected option
+      var selectedOption = selectElement.options[selectElement.selectedIndex];
+
+      // Get the value of the selected option
+      var selectedValue = selectedOption.value;
+
+    var other = " ";
+    var price1 = document.getElementById("price1").textContent;
+    var price2 = document.getElementById("price2").textContent;
+    var price3 = document.getElementById("price3").textContent;
+    var price4 = document.getElementById("price4").textContent;
+    var address = document.getElementById("address").value;
+    var pin = document.getElementById("pin").value;
+    var date = document.getElementById("datepicker").value;
+    var days = document.getElementById("days").value;
+	var selectElement1 = document.getElementById("days");
+
+      // Get the selected option
+      var selectedOption1 = selectElement1.options[selectElement1.selectedIndex];
+
+      // Get the value of the selected option
+      var selectedValue1 = selectedOption1.value;
+	var additional = document.getElementById("additional").value;
+	if (selectedValue === "other") {
+		var price_new = document.getElementById("price5").textContent;
+		  } else if (selectedValue === "Pre Wedding Shoot"){
+			var price_new = document.getElementById("price1").textContent;
+		  }
+		  else if (selectedValue === "Whole Wedding Shoot"){
+			var price_new = document.getElementById("price2").textContent;
+		  }
+		  else if (selectedValue === "Videography"){
+			var price_new = document.getElementById("price3").textContent;
+		  }
+		  else if (selectedValue === "Film Shoots"){
+			var price_new = document.getElementById("price4").textContent;
+		  }
+    // Display result in modal dialog
+    var modal = document.getElementById("product_view");
+    var resultDiv = document.getElementById("result");
+    var result = "<p name='result'>Name : " + name + "<br>Phone : " + phone + "<br/>Email : " + email +
+                "<br/>Shoot Type : " + selectedValue + "<br/>Other : " + other + "<br/>Price : " + price_new +
+                "<br/>Address : " + address + "<br/>Pin : " + pin + "<br/>Date : " + date + "<br/>Days : " + selectedValue1 +
+                "<br/>Additional : " + additional + "</p>" + "<lable name='email' class='hidden'>" + email + "</lable>";
+    resultDiv.innerHTML = result;
+    modal.style.display = "block";
+
+    // Ask for confirmation to send email
+    var closeButton = document.getElementsByClassName("close")[0];
+    closeButton.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
+		</script>
+		<script>
+			$(document).ready(function() {
+				$('#book').submit(function(e) {
+					e.preventDefault(); // Prevent form submission
+					
+					// Serialize form data
+					var formData = $(this).serialize();
+					
+					// Send form data to PHP script using AJAX
+					$.ajax({
+						type: 'POST',
+						url: 'send_email.php',
+						data: formData,
+						success: function(response) {
+							// Display success message or handle response
+							alert('Email sent successfully!');
+						},
+						error: function(xhr, status, error) {
+							// Handle errors
+							alert('Error: ' + error);
+						}
+					});
+				});
+			});
+			</script> 
+	<!-- Time -->
+	<script type="text/javascript" src="js/wickedpicker.js"></script>
+	<script type="text/javascript">
+		$('.timepicker').wickedpicker({
+			twentyFour: false
+		});
+	</script>
+	<!--// Time -->
+
+	<!-- Calendar -->
+	<script src="js/jquery-ui.js"></script>
+	<script>
+		$(function () {
+			$("#datepicker,#datepicker1,#datepicker2,#datepicker3").datepicker();
+		});
+	</script>
+	<!-- //Calendar -->
+	
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	
+	<!-- move to top-js-files -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- //move to top-js-files -->
+
+	<script type="text/javascript" src="js/bootstrap.js"></script><!-- bootstrap js file -->
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
